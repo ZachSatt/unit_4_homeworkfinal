@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>Timed Quiz</title>
+
+    </head>
+    <body>
+        
+        <style>
+            #mainframe {
+                border-radius: 5px;
+                background-color: white;
+                border: 2px solid black;
+                height: 350px;
+                width: 400px;
+            }
+
+            .buttons001 {
+                background-color: rgb(119, 253, 141);
+                color: rgb(46, 41, 41)9, 20, 20);
+                width: 70px;
+                height: 30px;
+                border-radius: 5px;
+            }
+
+            .buttons002 {
+                background-color: rgb(119, 253, 141);
+                color: rgb(46, 41, 41)9, 20, 20);
+                width: 70px;
+                height: 30px;
+                border-radius: 5px;
+            }
+
+            #mainfont {
+                text-align: center;
+                font-size: large;
+                color: black;
+            }
+        </style>
+        
+        <div id="mainframe">
+            <div id="mainfont">
+                <h2>Coding Quiz True or False with Timer!</h2><text>Question: <text id="number001">0</text></text><br />
+                <text>Time: <text id="time001">10</text></text><br />
+                <text>Score: <text id="score001">0</text></text><br />
+                <hr />
+                <div id="disappear001">
+                    <button class="buttons002" onclick="begin1()">Begin!</button>
+                </div>
+                <p id="message001"></p>
+                <p id="message002"></p>
+                <p id="message003"></p>
+                <p id="message004"></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="unit_4_homework.js"></script>
+    </body>
+</html>
